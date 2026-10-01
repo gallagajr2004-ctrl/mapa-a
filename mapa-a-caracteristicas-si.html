@@ -1,0 +1,55 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><title>Características de los Sistemas de Información</title>
+<meta name="viewport" content="width=1600">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Plus Jakarta Sans',Calibri,Arial,sans-serif;background:#fff;color:#16303B;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:1600px;margin:0 auto;padding:44px 48px 36px}
+.head{display:flex;align-items:flex-end;justify-content:space-between;border-bottom:3px solid #0B5563;padding-bottom:16px;margin-bottom:30px}
+.head h1{font-size:30px;font-weight:800;color:#0A2B3D;letter-spacing:-.4px}
+.head p{font-size:14px;color:#4B6672;margin-top:4px;font-weight:500}
+.tag{font-size:13px;font-weight:700;color:#fff;background:linear-gradient(90deg,#0B5563,#3B4A9E);padding:8px 16px;border-radius:999px;white-space:nowrap}
+.root{display:flex;flex-direction:column;align-items:center}
+.rootnode{background:linear-gradient(135deg,#0A2B3D,#14707F 60%,#3B4A9E);color:#fff;border-radius:20px;padding:20px 38px;text-align:center;max-width:760px;box-shadow:0 8px 22px rgba(10,43,61,.22)}
+.rootnode b{display:block;font-size:24px;font-weight:800;letter-spacing:-.3px}
+.rootnode span{display:block;font-size:13.5px;margin-top:6px;opacity:.88;font-weight:500}
+.rootline{width:2px;height:30px;background:#9DB5BF}
+.tree{display:flex;gap:16px}
+.branch{flex:1;position:relative;min-width:0;display:flex;flex-direction:column}
+.branch::before{content:"";position:absolute;top:0;left:-8px;right:-8px;height:2px;background:#9DB5BF}
+.branch:first-child::before{left:50%}
+.branch:last-child::before{right:50%}
+.branch:only-child::before{display:none}
+.conn{position:relative;height:74px;display:flex;align-items:center;justify-content:center}
+.conn::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;margin-left:-1px;background:#9DB5BF}
+.conn::after{content:"";position:absolute;left:50%;bottom:-1px;margin-left:-6px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:9px solid #9DB5BF}
+.pill{position:relative;z-index:1;background:#fff;border:1.8px solid var(--c);color:var(--c);font-style:italic;font-weight:700;font-size:12.5px;padding:5px 12px;border-radius:999px;text-align:center;max-width:95%}
+.card{flex:1;border-radius:16px;overflow:hidden;background:#F4F9FB;border:1.5px solid color-mix(in srgb,var(--c) 28%,#fff);box-shadow:0 4px 14px rgba(10,43,61,.08)}
+.ch{background:var(--c);color:#fff;font-weight:800;font-size:16px;padding:13px 14px;text-align:center;letter-spacing:-.1px}
+.cb{padding:10px 12px 12px;display:flex;flex-direction:column;gap:9px}
+.it{font-size:12.6px;line-height:1.45;background:#fff;border-left:4px solid var(--c);border-radius:8px;padding:7px 9px;box-shadow:0 1px 3px rgba(10,43,61,.06)}
+.it em{display:block;font-size:11.3px;font-weight:700;color:var(--c);font-style:italic;margin-bottom:1px}
+.it b{font-weight:700;color:#0A2B3D}
+.xr{margin-top:34px;border:1.5px solid #CFE0E7;border-radius:16px;padding:16px 20px;background:linear-gradient(180deg,#fff,#F4F9FB)}
+.xr h2{font-size:15px;font-weight:800;color:#0A2B3D;margin-bottom:12px}
+.chains{display:flex;flex-direction:column;gap:10px}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.cn{background:#0A2B3D;color:#fff;font-weight:700;font-size:12.8px;padding:7px 14px;border-radius:10px}
+.cl{font-size:12px;font-style:italic;font-weight:700;color:#14707F;display:flex;align-items:center;gap:8px;white-space:nowrap}
+.cl::after{content:"";width:22px;height:2px;background:#14707F;display:inline-block}
+.cl i{font-style:normal;color:#14707F;font-size:10px;margin-left:-10px;order:3}
+.foot{margin-top:20px;font-size:11.5px;color:#5C7580;line-height:1.5;border-top:1px solid #DCE8ED;padding-top:12px}
+.foot b{color:#0A2B3D}
+</style></head><body><div class="page">
+<div class="head"><div><h1>Características de los Sistemas de Información</h1><p>Mapa conceptual · Reto 1: Conexión de puntos clave, mapeando la integración de la cadena de suministros</p></div><div class="tag">Mapa a de 5</div></div>
+<div class="root"><div class="rootnode"><b>Sistema de Información (SI)</b><span>Conjunto interrelacionado de personas, datos, procesos y tecnología que genera información útil</span></div><div class="rootline"></div></div>
+<div class="tree"><div class="branch" style="--c:#0B5563"><div class="conn"><span class="pill">se define como</span></div>
+<div class="card"><div class="ch">Concepto</div><div class="cb"><div class="it"><em>es un</em>conjunto organizado de <b>personas, datos, procesos y tecnología</b> interrelacionados</div><div class="it"><em>que</em><b>recopila, procesa, almacena y distribuye</b> información</div><div class="it"><em>con el fin de</em>apoyar la <b>toma de decisiones</b>, la coordinación y el control de la organización</div><div class="it"><em>a diferencia de la TI</em>que es solo la herramienta: el SI incluye a quienes la usan y los procedimientos que la rigen</div></div></div></div><div class="branch" style="--c:#14707F"><div class="conn"><span class="pill">está formado por</span></div>
+<div class="card"><div class="ch">Componentes</div><div class="cb"><div class="it"><em>incluye</em><b>Hardware:</b> computadoras, servidores y dispositivos de captura</div><div class="it"><em>requiere</em><b>Software:</b> sistema operativo, aplicaciones y bases de datos</div><div class="it"><em>opera con</em><b>Datos:</b> hechos brutos que se transforman en información</div><div class="it"><em>es operado por</em><b>Personas:</b> usuarios, analistas y administradores</div><div class="it"><em>sigue</em><b>Procesos:</b> procedimientos y políticas de operación</div><div class="it"><em>se conecta mediante</em><b>Redes:</b> comunicación y acceso compartido</div></div></div></div><div class="branch" style="--c:#1C6A9C"><div class="conn"><span class="pill">opera mediante</span></div>
+<div class="card"><div class="ch">Funciones (ciclo)</div><div class="cb"><div class="it"><em>primero</em><b>Entrada:</b> captura datos de transacciones y fuentes</div><div class="it"><em>luego</em><b>Procesamiento:</b> clasifica, calcula, ordena y resume</div><div class="it"><em>después</em><b>Almacenamiento:</b> guarda datos en bases para consulta</div><div class="it"><em>y produce</em><b>Salida:</b> reportes, consultas y alertas</div><div class="it"><em>para cerrar con</em><b>Retroalimentación:</b> corrige y ajusta el proceso</div></div></div></div><div class="branch" style="--c:#2A55A3"><div class="conn"><span class="pill">se distingue por</span></div>
+<div class="card"><div class="ch">Características</div><div class="cb"><div class="it"><em>ser</em><b>Integrado:</b> comparte datos entre áreas</div><div class="it"><em>entregar</em>información <b>oportuna</b>, cuando se necesita</div><div class="it"><em>garantizar</em><b>exactitud y confiabilidad</b> de los datos</div><div class="it"><em>proteger</em><b>seguridad:</b> confidencialidad, integridad y disponibilidad</div><div class="it"><em>permitir</em><b>accesibilidad</b> según roles y permisos</div><div class="it"><em>crecer con</em><b>flexibilidad y escalabilidad</b> ante cambios del negocio</div></div></div></div><div class="branch" style="--c:#3B4A9E"><div class="conn"><span class="pill">se clasifica en</span></div>
+<div class="card"><div class="ch">Tipos de SI</div><div class="cb"><div class="it"><em>registran operaciones</em><b>Transaccionales (TPS):</b> ventas, compras y cobros diarios, rápidos y confiables</div><div class="it"><em>resumen para gerentes</em><b>SIG / MIS:</b> reportes periódicos de control</div><div class="it"><em>apoyan el análisis</em><b>SAD / DSS:</b> simulación y escenarios</div><div class="it"><em>informan a la dirección</em><b>Ejecutivos (EIS):</b> indicadores estratégicos</div><div class="it"><em>integran todo</em><b>ERP:</b> módulos sobre una base de datos única</div></div></div></div><div class="branch" style="--c:#4A3F93"><div class="conn"><span class="pill">aporta</span></div>
+<div class="card"><div class="ch">Valor para la empresa</div><div class="cb"><div class="it"><em>mejora la</em><b>eficiencia operativa</b> al automatizar tareas</div><div class="it"><em>reduce</em><b>costos y errores</b> de captura manual</div><div class="it"><em>genera</em><b>ventaja competitiva</b> con información a tiempo</div><div class="it"><em>fortalece</em><b>control interno</b> y trazabilidad de operaciones</div><div class="it"><em>facilita</em><b>cumplimiento fiscal</b> (contabilidad electrónica, CFF)</div></div></div></div></div>
+<div class="xr"><h2>Relaciones transversales entre conceptos</h2><div class="chains"><div class="chain"><span class="cn">Datos</span><span class="cl">se transforman en<i>&#9654;</i></span><span class="cn">Información</span><span class="cl">que soporta<i>&#9654;</i></span><span class="cn">Decisiones</span></div><div class="chain"><span class="cn">Sistema transaccional (TPS)</span><span class="cl">alimenta a<i>&#9654;</i></span><span class="cn">SIG y DSS</span><span class="cl">que informan a<i>&#9654;</i></span><span class="cn">Sistemas ejecutivos</span></div><div class="chain"><span class="cn">Personas y procesos</span><span class="cl">determinan el éxito de<i>&#9654;</i></span><span class="cn">la tecnología</span></div></div></div>
+<div class="foot"><b>Fuentes base:</b> Fugini et al. (2018); Vasconcelos Santillán (2014); Angulo Novoa y Maldonado Piracon (2016); Schneider y Smalley (IBM); Alegsa (2023); Cámara de Diputados (2024).</div>
+</div></body></html>
